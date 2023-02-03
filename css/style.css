@@ -1,0 +1,34 @@
+body {
+    font-family: sans-serif; 
+    background-image: linear-gradient(45deg,cyan,yellow);
+}
+header {
+    padding: 8px 24px;
+    background-image: linear-gradient(45deg,cyan,yellow);
+    align-items:center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+header img{
+    width: 130px;
+}
+header p {
+    font-weight: 900;
+}
+.eu {
+    text-align: center;
+    
+}
+.eu a{
+    color: rgb(105, 105, 105);
+    text-decoration: none;    
+    transition: color 0.3s;
+    font-weight: 900;
+    padding: 20px 18px 0 ;
+   
+}
+.eu a:hover{
+    color:red
+}
