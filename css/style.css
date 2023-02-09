@@ -1,34 +1,100 @@
 @charset "UTF-8"; 
     
 *{
-    height: ;
+    margin: 0px;
+    padding: 0px;
 }
 
 body {
-    font-family: sans-serif; 
-    background-image: linear-gradient(45deg,#13678A,#45C4B0);
+    font-family: 'Courier New', Courier, monospace; 
+    background-color: #c2ecfd;
     background-attachment:fixed;
 }
+
 header {
     padding: 8px 24px;
-    background-image: linear-gradient(45deg,#13678A,#45C4B0);
+    background-image: linear-gradient(to bottom,#45C4B0,#13668a);
     align-items:center;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     
 }
+
 header img{
     width: 110px;
-}
-header p {
-    font-weight: 900;
-}
-.eu {
-    text-align: center;
+    max-width: 150px;
     
 }
-.eu a{    
-    padding: 20px 18px 0 ;
-   
+
+header p {
+    font-weight: 900
+}
+
+main {
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+    min-width: 320px;
+    max-width: 1000px; 
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.815);
+    margin-bottom: 30px;
+    border-radius:10px;
+    margin-top: 30px;    
+}
+
+main a{    
+  padding-left: 10px;
+     
+}
+
+main h1 {
+    font-family:'Courier New', Courier, monospace;
+    text-indent: 8px; 
+    padding-bottom: 10px;
+    font-weight: 900;
+    margin-bottom: 10px;
+    
+}
+
+main p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 15px 0 ;
+    font-weight:lighter ;
+    text-align: center;
+    text-indent: 30px;
+    line-height: 2em;
+    font-size: 1em;
+}
+
+main h2 {
+    font-family:'Courier New', Courier, monospace ;
+    padding-bottom: 25px; 
+    font-weight: lighter;
+}
+main b {
+    color: #2cca5c;
+    font-weight: bold;
+}
+
+footer {
+    background-image: linear-gradient(to bottom,#13668a,#45C4B0 );
+    text-align: center;
+    padding: 24px;
+    color: white;
+}
+
+footer a {
+    padding: 2px;
+    background-color: beige;
+    color:black;
+    text-decoration: none;
+    transition: 0,3s;
+    font-weight: bold;
+    border-radius: 10px;
+}
+footer a:hover {
+    color:#209443;
+
 }
