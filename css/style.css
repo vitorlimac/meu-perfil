@@ -68,7 +68,7 @@ main p {
     font-size: 1em;
 }
 
-main h2 {
+main h3 {
     font-family:'Courier New', Courier, monospace ;
     padding-bottom: 25px; 
     font-weight: lighter;
@@ -99,3 +99,24 @@ footer a:hover {
     color:#209443;
 
 }
+
+h2{
+    font-size: 18px;
+    color:rgba(0, 0, 0, 0.315);
+    
+}
+#mensagem {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    line-height: 1.8;
+    animation: changeMessage 5s normal;
+    color:#2cca5c;
+    margin: 30px;
+  }
+  
+  @keyframes changeMessage {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
