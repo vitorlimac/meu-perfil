@@ -10,11 +10,15 @@ const mensagens = [
   ];
   
   const mensagemElement = document.getElementById("mensagem");
+  let mensagemIndex = 0;
   
-  function changeMessage() {
-    const randomIndex = Math.floor(Math.random() * mensagens.length);
-    mensagemElement.textContent = mensagens[randomIndex];
+  function exibirMensagem() {
+    mensagemElement.textContent = mensagens[mensagemIndex];
+    mensagemIndex++;
+  
+    if (mensagemIndex === mensagens.length) {
+      mensagemIndex = 0;
+    }
   }
   
-  setInterval(changeMessage, 5000);
-  
+  setInterval(exibirMensagem, 5000);
