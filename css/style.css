@@ -75,8 +75,9 @@ main h3 {
     color: #13668a;
 }
 main b {
-    color: #2cca5c;
+    color:rgba(50, 205, 58, 0.616);
     font-weight: bold;
+    
 }
 
 footer {
@@ -111,7 +112,7 @@ h2{
     font-size: 30px;
     line-height: 1.8;
     animation: changeMessage 2s infinite;
-    background-color:#45c4b159;   
+    background-color:#45c4b13b;   
     padding: 20px; 
     border-radius: 10px;
     font-weight: bold;
@@ -121,6 +122,7 @@ h2{
     text-align: center;
     margin-bottom: 30px;
     margin-top: 30px;
+    color:rgba(50, 205, 58, 0.616);
   }
   
   @keyframes changeMessage {
