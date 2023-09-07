@@ -1,11 +1,10 @@
 const mensagens = [
     "Linux",
     "Docker",
-    "HTML & CSS",
-    "Javascript",
-    "Cloud",
-    "Inteligência Artificial",
-    "Máquina Virtual"
+    "Kubernetes",
+    "Openshift",
+    "Criaçao de Pipeline",
+    "Infraestrutura",
     // Adicione mais mensagens aqui, se desejar
   ];
   
