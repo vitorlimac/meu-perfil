@@ -2,8 +2,7 @@ const mensagens = [
     "Linux",
     "Docker",
     "Kubernetes",
-    "Openshift",
-    "Criaçao de Pipeline",
+    "Cluster Openshift",
     "Infraestrutura",
     // Adicione mais mensagens aqui, se desejar
   ];
