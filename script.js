@@ -1,10 +1,9 @@
 const mensagens = [
     "Linux",
     "Docker",
-    "Kubernetes",
-    "Cluster Openshift",
-    "Infraestrutura",
-    // Adicione mais mensagens aqui, se desejar
+    "Kubernetes/Openshift",  
+    ".Net",
+    "MySQL",
   ];
   
   const mensagemElement = document.getElementById("mensagem");
