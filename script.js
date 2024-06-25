@@ -2,8 +2,9 @@ const mensagens = [
     "Linux",
     "Docker",
     "Kubernetes/Openshift",  
-    ".Net",
+    "Hardware",
     "MySQL",
+    "Rede computadores",
   ];
   
   const mensagemElement = document.getElementById("mensagem");
